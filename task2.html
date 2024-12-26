@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Stopwatch</h1>
+        <div id="display" class="display-4">00:00:00</div>
+        <div class="mt-4">
+            <button id="start" class="btn btn-success">Start</button>
+            <button id="pause" class="btn btn-warning">Pause</button>
+            <button id="reset" class="btn btn-danger">Reset</button>
+            <button id="lap" class="btn btn-info">Lap</button>
+        </div>
+        <div class="mt-4">
+            <button id="toggleColor" class="btn btn-secondary">Toggle Color Mode</button>
+        </div>
+        <h3 class="mt-4">Lap Times</h3>
+        <ul id="lapList" class="list-group"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
